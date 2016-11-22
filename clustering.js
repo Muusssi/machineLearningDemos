@@ -23,6 +23,7 @@ function generate_data_points(number) {
 
 function draw_data_points() {
   if (data_points != null) {
+    strokeWeight(1);
     for (var i = 0; i < data_points.length; i++) {
       if (classes[i] < 0) {
         fill(255);
