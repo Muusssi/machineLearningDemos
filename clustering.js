@@ -207,7 +207,7 @@ function mousePressed() {
 }
 
 function setup() {
-  var myCanvas = createCanvas(0.8*windowWidth, 0.9*windowHeight);
+  var myCanvas = createCanvas(0.6*windowWidth, 0.7*windowHeight);
   myCanvas.parent('clustering_canvas');
   class_colors = [color(0, 0, 255), color(255, 0, 0), color(0, 255, 0), color(255, 255, 0), color(255, 0, 255), color(0, 255, 255)];
   rectMode(CENTER);
